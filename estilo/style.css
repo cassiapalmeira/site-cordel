@@ -8,6 +8,10 @@
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Kalam', cursive;
+
+    --cor1: #232323;
+    --cor2: #1f1f1f;
+    --cor3: #121212;
 }
 
 * {
@@ -23,7 +27,7 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
     color: white;
     text-align: center;
 }
@@ -65,7 +69,7 @@ section > p {
 
 section.normal {
     background-color: white;
-    color: black;
+    color: var(--cor1);
 }
 
 section.imagem {
@@ -96,7 +100,7 @@ section.imagem > p {
 }
 
 footer {
-    background-color: black;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
     padding: 10px;
     color: white;
     text-align: center;
