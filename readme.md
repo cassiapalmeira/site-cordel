@@ -1,0 +1,1 @@
+Trata-se de um site com efeito parallax produzido a partir do desafio 12 do CursoemVideo, com a orientação do professor Gustavo Guanabara.
